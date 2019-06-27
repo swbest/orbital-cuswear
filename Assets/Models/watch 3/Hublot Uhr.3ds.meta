@@ -3,7 +3,57 @@ guid: 47d535d5a36577c48991ee256769f862
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: ae5a09b89170813499b0411a63bc2f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: 782eaddd7ae8db64d9ff2f50ffa9694c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.3
+    second: {fileID: 2100000, guid: d95569ba8a6ff9c45b77b308931ef6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.5
+    second: {fileID: 2100000, guid: 1db59b414c6e5ba4c810a765cdc0b3ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.7
+    second: {fileID: 2100000, guid: 10cd76e6fab2be84a9894c4361aeb64f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat1
+    second: {fileID: 2100000, guid: 355b4bda491bc8b4ca70ce1555b0a43b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat12
+    second: {fileID: 2100000, guid: af69cd0ee624f4944b1ef2e229c38b82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat123
+    second: {fileID: 2100000, guid: ff01971fc69fa20408466030e01a6aa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat1234
+    second: {fileID: 2100000, guid: 1a9bf1172dd979f4381ffa426314d2fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Steel
+    second: {fileID: 2100000, guid: 1d3fda5134ab62446bb43d7c7db5af8a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
