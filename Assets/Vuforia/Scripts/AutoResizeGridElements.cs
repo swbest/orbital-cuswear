@@ -21,8 +21,8 @@ public class AutoResizeGridElements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float cellX = canvas.pixelRect.width * 0.1916f;
-        float cellY = canvas.pixelRect.height * 0.82f / 3;
+        float cellX = canvas.pixelRect.width * 0.25f;
+        float cellY = canvas.pixelRect.height * 0.65271f / 2;
         gridLayout.cellSize = new Vector2(cellX, cellY);
          
     }
