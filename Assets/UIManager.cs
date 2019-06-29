@@ -9,12 +9,7 @@ public class UIManager : MonoBehaviour
     public GameObject ModelsManager;
     public Sprite[] SelectedSprites;
     public Sprite[] NormalSprites;
-    public Sprite[] CardSprites;
     public Image[] SliderImages;
-    public Image InformationCard;
-    public GameObject InformationIcon;
-    public GameObject InformationPanel;
-
 
 
     // Start is called before the first frame update
@@ -22,8 +17,6 @@ public class UIManager : MonoBehaviour
     {
 
         DeselectAll();
-        ToggleInformationIcon(false);
-        InformationPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,27 +30,6 @@ public class UIManager : MonoBehaviour
         ModelsManager.SendMessage("SetModel",index);
         DeselectAll();
         SliderImages[index].sprite = SelectedSprites[index];
-       if (index != 3)
-        {
-            InformationCard.sprite = CardSprites[index];
-            ToggleInformationIcon(true);
-        } else
-        {
-            ToggleInformationIcon(false);
-        }
-   
-    }
-
-    public void HideInformation()
-    {
-        InformationPanel.SetActive(false);
-    }
-
-    public void ShowInformation()
-    {
-        InformationPanel.SetActive(true);
-   
-
     }
 
     void DeselectAll()
@@ -66,12 +38,5 @@ public class UIManager : MonoBehaviour
         {
             SliderImages[i].sprite = NormalSprites[i];
         }
-        ToggleInformationIcon(false);
-
-    }
-
-    void ToggleInformationIcon(bool state)
-    {
-        InformationIcon.SetActive(state);
     }
 }
